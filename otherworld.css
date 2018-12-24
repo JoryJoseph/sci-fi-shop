@@ -28,6 +28,7 @@ main{
   float: left;
   width: 25%;
   padding: 0 10px;
+  height: 300px;
 }
 
 .row {margin: 0 -5px;}
@@ -40,8 +41,20 @@ main{
 }
 
 .card {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */ 
   padding: 16px;
   text-align: center;
   background-color:#D20836;
     margin:40px;
+
+}
+
+main img{
+    
+    transition:transform 1s;
+}
+
+main img:hover {
+    
+   transform: scale(1.4) rotate(12deg);
+}
